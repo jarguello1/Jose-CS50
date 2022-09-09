@@ -1,0 +1,15 @@
+sort1 uses: bubble sort
+
+How do you know?: Sort1 was the quickest with the sorted list. Since bubble sort would only have to
+pass through the list once after ensuring that everything was in the right order.
+
+sort2 uses: merge sort
+
+How do you know?: sort2 was the quickest sort in all but one case.
+and it scaled the least with more data.
+
+sort3 uses: selection sort
+
+How do you know?: sort3 was middle of the pack except for in the pre-sorted list, where it was slowest.
+Even if the list was sorted, it would still have to pass through the list multiple times compared to
+bubble sorting, becuase it would have to recheck n number of times

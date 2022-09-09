@@ -1,0 +1,78 @@
+Crime took place on Humphrey Street
+July 28, 2021 - 10:15AM
+Within 10 minutes of theft
+Was on Leggett Street in the morning withdrawing money
+Flying out of fiftyville July 29, 2021
+
+Ruth, Emma, Raymond Witnesses
+
+200 people
+58 flights
+
+1 | O'Hare International Airport - Chicago
+2 | Beijing Capital International Airport
+3 | Los Angeles International Airport
+4 | LaGuardia Airport - NYC
+5 | Dallas/Fort Worth International Airport
+6 | Logan International Airport - Boston
+7 | Dubai International Airport
+8 | Fiftyville Regional Airport
+9 | Tokyo International Airport
+10 | Charles de Gaulle Airport - Paris
+11 | San Francisco International Airport
+12 | Indira Gandhi International Airport - Dehli
+
+Ruth    | Sometime within ten minutes of the theft, I saw the thief get into a car in the bakery
+        parking lot and drive away.If you have security footage from the bakery parking lot, you might
+        want to look for cars that left the parking lot inthat time frame.
+
+Eugene  | I don't know the thief's name, but it was someone I recognized.
+        Earlier this morning, before I arrived at Emma's bakery, I was walking by
+        the ATM on Leggett Streetand saw the thief there withdrawing some money.
+
+Raymond | As the thief was leaving the bakery, they called someone who talked to
+        them for less than a minute. In the call, I heard the thief say that they were planning
+        to take the earliest flight out of Fiftyville tomorrow. The thief then asked the person
+        on the other end of the phone to purchase the flight ticket.
+
+Possible License Plates
++------+--------+----------+---------------+---------+
+| hour | minute | activity | license_plate |  name   |
++------+--------+----------+---------------+---------+
+| 10   | 18     | exit     | 94KL13X       | Bruce   |
+| 10   | 23     | exit     | 322W7JE       | Diana   |
++------+--------+----------+---------------+---------+
+
++-----+----------------+------------------+--------+---------+
+| id  | account_number | transaction_type | amount |  name   |
++-----+----------------+------------------+--------+---------+
+| 267 | 49610011       | withdraw         | 50     | Bruce   |
+| 336 | 26013199       | withdraw         | 35     | Diana   |
++-----+----------------+------------------+--------+---------+
+
++-----------------+-----------+
+| passport_number |   name    |
++-----------------+-----------+
+| 3592750733      | Diana     |
+| 5773159633      | Bruce     |
++-----------------+-----------+
+
++----------------+----------------+----------+---------+---------+
+|     caller     |    receiver    | duration | caller  | receive |
++----------------+----------------+----------+---------+---------+
+| (367) 555-5533 | (375) 555-8161 | 45       | Bruce   | Robin   |
+| (770) 555-1861 | (725) 555-3243 | 49       | Diana   | Philip  |
++----------------+----------------+----------+---------+---------+
+
++----+-------------------+-------+-----+
+| id | origin_airport_id | month | day |
++----+-------------------+-------+-----+
+| 18 | 8                 | 7     | 29  |
+| 23 | 8                 | 7     | 29  |
+| 36 | 8                 | 7     | 29  |
+| 43 | 8                 | 7     | 29  |
+| 53 | 8                 | 7     | 29  |
++----+-------------------+-------+-----+
+
+Diana was on the earliest flight on July 29th, she called philip and flew to Boston
+Bruce was on the 3rd earliest flight, he called Robin and flew to New York City
